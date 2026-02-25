@@ -12,8 +12,8 @@ for (int i = 0; i < n; i++)
 int m = numeros[0];
 
 for (int i = 1; i < n; ++i) {
-    int n = numeros[i];
-    if (n > m) m = n;
+    int x = numeros[i];
+    if (x > m) m = x;
     }
 // --- FIN DE LÓGICA DEL ALUMNO ---
 
