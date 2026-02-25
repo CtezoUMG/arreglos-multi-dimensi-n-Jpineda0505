@@ -19,7 +19,7 @@ for (int i = 0; i < n; i++)
 int maximo = numeros[0];
 for (int i = 1; i < n; ++i)
     if (numeros[i] > maximo) maximo = numeros[i];
-
+    
 // TODO: Implementar el algoritmo de búsqueda aquí
 
 
