@@ -13,4 +13,4 @@ int m = numeros[0];
 for (int i = 1; i < n; ++i) if (numeros[i] > m) m = numeros[i];
 // --- FIN DE LÓGICA DEL ALUMNO ---
 
-Console.Write(m);
+Console.Writeline(m);
