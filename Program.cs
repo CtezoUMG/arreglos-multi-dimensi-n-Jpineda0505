@@ -10,7 +10,11 @@ for (int i = 0; i < n; i++)
 }
 // --- INICIO DE LÓGICA DEL ALUMNO ---
 int m = numeros[0];
-for (int i = 1; i < n; ++i) if (numeros[i] > m) m = numeros[i];
+
+for (int i = 1; i < n; ++i) {
+    int n = numeros[i];
+    if (n > m) m = n;
+    }
 // --- FIN DE LÓGICA DEL ALUMNO ---
 
 Console.WriteLine(m);
