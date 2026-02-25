@@ -18,10 +18,10 @@ for (int i = 0; i < n; i++)
 // Instrucción: El alumno debe encontrar el valor máximo del arreglo 'numeros'
 int maximo = numeros[0];
 for (int i = 1; i < n; ++i)
-    if (numeros[i] > maximo) maximo = numeros[i];
-
+{    int x = numeros[i];
+    if (x > maximo) maximo = x; 
+}
 // TODO: Implementar el algoritmo de búsqueda aquí
-
 
 // --- FIN DE LÓGICA DEL ALUMNO ---
 
