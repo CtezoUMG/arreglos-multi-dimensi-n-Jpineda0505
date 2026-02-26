@@ -12,8 +12,8 @@ for (int i = 0; i < n; i++)
 // Instrucción: El alumno debe encontrar el valor máximo del arreglo 'numeros'
 int m = numeros[0];
 for (int i = 1; i < n; ++i)
-{    int y = numeros[i];
-    if (y > m) m = y; 
+{    int x = numeros[i];
+    if (x > m) m = x; 
 }
 // TODO: Implementar el algoritmo de búsqueda aquí
 
