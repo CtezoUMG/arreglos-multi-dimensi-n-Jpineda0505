@@ -12,7 +12,6 @@ for (int i = 0; i < n; i++)
 int m = a[0];
 for (int i = 1; i < n; ++i)  
   if (a[i] > m) m = a[i]; 
-
 // --- FIN DE LÓGICA DEL ALUMNO ---
 // 2. Salida: Lo que el Autograding comparará
 Console.WriteLine(m);
