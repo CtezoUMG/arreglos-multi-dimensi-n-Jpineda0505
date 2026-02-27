@@ -1,18 +1,18 @@
 using System;
-string? linea1 = Console.ReadLine();
-if (string.IsNullOrEmpty(linea1)) return;
-int n = int.Parse(linea1);
-string[] entrada = Console.ReadLine()?.Split(' ', StringSplitOptions.RemoveEmptyEntries) ?? Array.Empty<string>();
-int[] numeros = new int[n];
+string? l1 = Console.ReadLine();
+if (string.IsNullOrEmpty(l1)) return;
+int n = int.Parse(l1);
+string[] e = Console.ReadLine()?.Split(' ', StringSplitOptions.RemoveEmptyEntries) ?? Array.Empty<string>();
+int[] a = new int[n];
 for (int i = 0; i < n; i++)
 {
-    numeros[i] = int.Parse(entrada[i]);
+    a[i] = int.Parse(e[i]);
 }
 // --- INICIO DE LÓGICA DEL ALUMNO ---
-// Instrucción: El alumno debe encontrar el valor máximo del arreglo 'numeros'
-int m = numeros[0];
+// Instrucción: El alumno debe encontrar el valor máximo del arreglo 'a'
+int m = a[0];
 for (int i = 1; i < n; ++i)
-{    int x = numeros[i];
+{    int x = a[i];
     if (x > m) m = x; 
 }
 // TODO: Implementar el algoritmo de búsqueda aquí
