@@ -8,14 +8,11 @@ for (int i = 0; i < n; i++)
 {
     a[i] = int.Parse(ent[i]);
 }
-
 // Instrucción: El alumno debe encontrar el valor máximo del arreglo 'a'
 int m = a[0];
-for (int i = 1; i < n; ++i)
-{    int x = a[i];
-    if (x > m) m = x; 
-}
-// --- FIN DE LÓGICA DEL ALUMNO ---
+for (int i = 1; i < n; ++i)  
+  if (a[i] > m) m = a[i]; 
 
+// --- FIN DE LÓGICA DEL ALUMNO ---
 // 2. Salida: Lo que el Autograding comparará
 Console.WriteLine(m);
