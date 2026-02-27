@@ -8,7 +8,7 @@ for (int i = 0; i < n; i++)
 {
     a[i] = int.Parse(ent[i]);
 }
-// --- INICIO DE LÓGICA DEL ALUMNO ---
+
 // Instrucción: El alumno debe encontrar el valor máximo del arreglo 'a'
 int m = a[0];
 for (int i = 1; i < n; ++i)
