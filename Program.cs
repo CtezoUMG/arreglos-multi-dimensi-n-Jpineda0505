@@ -2,11 +2,11 @@ using System;
 string? l1 = Console.ReadLine();
 if (string.IsNullOrEmpty(l1)) return;
 int n = int.Parse(l1);
-string[] e = Console.ReadLine()?.Split(' ', StringSplitOptions.RemoveEmptyEntries) ?? Array.Empty<string>();
+string[] ent = Console.ReadLine()?.Split(' ', StringSplitOptions.RemoveEmptyEntries) ?? Array.Empty<string>();
 int[] a = new int[n];
 for (int i = 0; i < n; i++)
 {
-    a[i] = int.Parse(e[i]);
+    a[i] = int.Parse(ent[i]);
 }
 // --- INICIO DE LÓGICA DEL ALUMNO ---
 // Instrucción: El alumno debe encontrar el valor máximo del arreglo 'a'
