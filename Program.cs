@@ -15,8 +15,6 @@ for (int i = 1; i < n; ++i)
 {    int x = a[i];
     if (x > m) m = x; 
 }
-// TODO: Implementar el algoritmo de búsqueda aquí
-
 // --- FIN DE LÓGICA DEL ALUMNO ---
 
 // 2. Salida: Lo que el Autograding comparará
