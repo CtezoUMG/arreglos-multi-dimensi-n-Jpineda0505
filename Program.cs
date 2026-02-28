@@ -8,7 +8,10 @@ for (int i = 0; i < n; i++)
     a[i] = int.Parse(ent[i]);
 // Instrucción: El alumno debe encontrar el valor máximo del arreglo 'a'
 int m = a[0];
-for (int i = 1; i < n; ++i)  
-     int x = a[i]; if (x > m) m = x; 
+for (int i = 1; i < n; ++i)  {
+   int x = a[i];
+      if (x > m) m = x;  
+}
+     
 // --- FIN DE LÓGICA DEL ALUMNO ---
 Console.WriteLine(m);
